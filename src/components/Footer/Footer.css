@@ -1,0 +1,26 @@
+.footer--container{
+    min-height: 15rem;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.footer--container p{
+    color:#A7A7A7;
+}
+
+.icons--row{
+    margin:1rem 0;
+}
+.icon{
+    margin:0 0.5rem;
+}
+
+.footer--container a{
+    color: #E45F26;
+    text-decoration: none;
+}

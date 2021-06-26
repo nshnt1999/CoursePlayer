@@ -1,0 +1,51 @@
+.playlist--body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  min-height: 50vh;
+}
+
+.playlists {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.playlist--card {
+  padding:1rem;
+  width: 60%;
+  height: 15rem;
+  background-color: #363636;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.course--details{
+  width: 80%;
+  height: 100%;
+}
+.course--img{
+  width: 40%;
+  height: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5W0TfD8Tk6ZfptTiiD1uBmWFi4cfjxGHdiw&usqp=CAU") !important;
+}
+
+@media screen and (max-width: 760px) {
+  .playlist--body {
+    margin-top: 0;
+  }
+  .createplaylist--container {
+    margin-top: 1rem;
+  }
+}
